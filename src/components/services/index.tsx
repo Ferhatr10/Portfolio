@@ -1,6 +1,7 @@
 import { Card, CardContent } from "../ui/card"
 import { Badge } from "../ui/badge"
 import { Palette, Code, Smartphone } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 const services = [
   {
@@ -24,9 +25,11 @@ const services = [
 ]
 
 export function Services() {
+  const t = useTranslations()
+
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Services</h2>
+      <h1 className="text-4xl font-bold text-gray-900 dark:text-white">{t('services.title')}</h1>
 
       <div className="space-y-4">
         {services.map((service) => (

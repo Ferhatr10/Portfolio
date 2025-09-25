@@ -28,39 +28,24 @@ import type { IconComponent } from '@/types'
 
 export const AVATAR = {
   name: 'Ferhat Rudvanoğulları',
-  initials: 'EP'
+  initials: 'FR'
 }
 
 export const LINKS = [
   {
     title: 'GitHub',
-    url: 'https://github.com/emapeire',
+    url: 'https://github.com/Ferhatr10',
     icon: GitBranch
   },
   {
     title: 'LinkedIn',
-    url: 'https://linkedin.com/in/emanuelpeire',
+    url: 'https://www.linkedin.com/in/ferhat-rudvanogullari',
     icon: Network
   },
   {
-    title: 'X (Twitter)',
-    url: 'https://x.com/emapeire',
-    icon: Star
-  },
-  {
     title: 'Email',
-    url: 'mailto:hi@emapeire.xyz',
+    url: 'mailto:ferhatrudvanogullari6@gmail.com',
     icon: MailIcon
-  },
-  {
-    title: 'CV App',
-    url: 'https://cv.emapeire.xyz',
-    icon: FileTextIcon
-  },
-  {
-    title: 'Link App',
-    url: 'https://link.emapeire.xyz',
-    icon: LinkIcon
   }
 ]
 

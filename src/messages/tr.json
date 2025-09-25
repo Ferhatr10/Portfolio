@@ -27,43 +27,77 @@
     "links": {
       "github": "GitHub",
       "linkedin": "LinkedIn",
-      "twitter": "X (Twitter)",
-      "email": "E-posta",
-      "cvapp": "CV Uygulaması"
+      "email": "E-posta"
     }
   },
   "hero": {
     "available": "Müsait",
     "about": {
       "title": "Merhaba, Ben Ferhat",
-      "description": "Kontrol Sistemleri, Yapay Zeka ve İleri Teknoloji Alanında Uzman Mekatronik Mühendisi.Yenilikçi teknolojilerle geleceği şekillendiren, karmaşık mühendislik problemlerine yapay zeka destekli çözümler üretmeye odaklanmış deneyimli bir profesyonelim. Hyperloop, kontrol sistemleri ve Ar-Ge alanındaki uzmanlığım ile ölçülebilir sonuçlar üretmeyi hedefliyorum."
+      "description": [
+        "Yıldız Teknik Üniversitesi Mekatronik Mühendisliği bölümünden onur öğrencisi olarak mezun oldum. Eğitimim süresince mekanik tasarım, gömülü kodlama, modelleme ve kontrol gibi alanlarda çalışarak fiziksel sistemlerin tasarımından yazılımsal uygulamalara kadar geniş bir yelpazede deneyim kazandım.",
+        "Mühendisliği benim için değerli kılan, yalnızca teknik bilgi değil; karmaşık sistemleri anlamak, tasarlamak ve sürekli olarak iyileştirme ve geliştirme tutkusudur. İleride de veriye dayalı yapay zeka çözümlerinde ustalaşmayı ve yenilikçi projelerde mühendislik becerilerimi daha da geliştirmeyi hedefliyorum."
+      ]
     },
     "badge": {
       "developer": "Mekatronik Mühendisi",
       "location": "Türkiye"
     },
     "buttons": {
-      "resume": "CV",
+      "resume": "Özgeçmiş",
       "copyEmail": "E-postayı kopyala"
     }
+  },
+  "services": {
+    "title": "Hizmetler"
+  },
+  "achievements": {
+    "title": "Öne Çıkan Başarılar",
+    "subtitle": "Mühendislik ve inovasyondaki yolculuğum ve başarılarım",
+    "items": [
+      "Öncü Rekabet Başarısı: Türkiye'nin ilk Hyperloop levitasyon başarısı ve TEKNOFEST 2024'te İkincilik Ödülü kazanan ekibe liderlik ederek mühendislik yetkinliğini ulusal düzeyde kanıtlama.",
+      "3+ Yıl İleri Teknoloji Uzmanlığı: 3 yılı aşan Hyperloop, Yapay Zeka (AI), Robotik ve İleri Kontrol sistemleri üzerine kapsamlı Ar-Ge ve uygulama tecrübesi.",
+      "Uluslararası Temsil ve Tecrübe: Projelerimizle Türkiye'yi, 2 farklı Avrupa ülkesinde (İskoçya ve İsviçre) düzenlenen uluslararası yarışmalarda başarıyla temsil etme.",
+      "Savunma Sanayi Staj Tecrübesi (TÜBİTAK SAGE): TÜBİTAK SAGE'de kontrol sistemleri, simülasyon ve stabilite analizleri alanında derinlemesine pratik bilgi edinimi.",
+      "TÜBİTAK Destekli Yapay Zeka Projesi: TÜBİTAK 2209-A programı kapsamında, doğrusal olmayan sistemlerin kontrolüne odaklanan yapay zeka tabanlı Mezuniyet Projesi'ni başarıyla tamamlama."
+    ]
+  },
+  "statistics": {
+    "title": "İstatistikler",
+    "subtitle": "Profesyonel yolculuğumdan önemli metrikler",
+    "items": [
+      "3+ Yıl Hyperloop Deneyimi",
+      "2 TEKNOFEST Ödülü",
+      "2 Uluslararası Yarışma Temsili",
+      "1 TÜBİTAK Destekli Proje"
+    ]
   },
   "career": {
     "title": "Kariyer & Deneyim",
     "viewMore": "Daha fazlasını gör",
+    "highlights": [
+      "⚡ TÜBİTAK SAGE Stajyeri - Savunma sanayi kontrol sistemleri uzmanlığı",
+      "🚀 Türkiye'nin İlk Levitasyon Başarısı - Öncü teknoloji geliştirme liderliği",
+      "🏆 TEKNOFEST 2024 İkinci Ödül - Ulusal düzey mühendislik başarısı",
+      "🌍 Avrupa Hyperloop Haftası Temsilcisi - İskoçya ve İsviçre uluslararası yarışmaları",
+      "🎯 3+ Yıl İleri Teknoloji Deneyimi - Kontrol sistemlerinden yapay zekaya geniş spektrum"
+    ],
     "companies": [
       {
         "company": "TÜBİTAK SAGE",
         "link": null,
-        "badges": ["Ankara"],
+        "badges": ["Ankara, Türkiye"],
         "jobs": [
           {
             "title": "Mekatronik Mühendisliği Stajyeri",
-            "start": "Ağu, 2025",
+            "start": "Ağustos 2025",
             "end": "Halen Devam Ediyor",
-            "description": [
-              "DC motor modelleri üzerinden kontrolcü tasarımı ve stabilite analizleri gerçekleştirdim.",
-              "Motor davranışlarını simüle ederek performans değerlendirmeleri ve teknik raporlamalar yaptım.",
-              "Kontrol sistemleri bilgimi derinleştiren pratik ve etkili mühendislik çözümleri geliştirdim."
+            "description": "Mekatronik bölümündeki çalışmalarım sırasında kontrol sistemleri üzerine odaklandım. Kontrolcü tasarımı ve DC motor modellerini kullanarak sistemlerin stabilite analizlerini gerçekleştirdim. Motor davranışını başarılı bir şekilde simüle ederek kapsamlı performans değerlendirmeleri yaptım ve bu sonuçları teknik olarak raporladım. Bu süreç, kontrol sistemleri bilgimi derinleştirirken, pratik ve etkili mühendislik çözümleri geliştirme yeteneğimi önemli ölçüde güçlendirdi.",
+            "responsibilities": [
+              "DC motor kontrolcü tasarımı ve optimizasyonu",
+              "Sistem stabilite analizi ve performans değerlendirmesi",
+              "MATLAB/Simulink kullanarak motor simülasyonu",
+              "Teknik dokümantasyon ve raporlama"
             ]
           }
         ]
@@ -71,35 +105,28 @@
       {
         "company": "Starloop",
         "link": null,
-        "badges": ["İstanbul", "Ar-Ge"],
+        "badges": ["İstanbul, Türkiye"],
         "jobs": [
           {
-            "title": "Ar-Ge Mühendisi & Mekanik Ekip Lideri",
-            "start": "Eki, 2021",
-            "end": "Eki, 2024",
-            "description": [
-              "Türkiye'nin ilk Hyperloop levitasyon başarısını gerçekleştiren ekibe liderlik ettim.",
-              "2024 TEKNOFEST'te ikincilik ödülü ve 'İtki Sistemi Geliştirme Ödülü' kazandık.",
-              "SOLIDWORKS ve Ansys kullanarak mekanik sistem tasarımı ve analiz süreçlerini yönettim.",
-              "Uluslararası yarışmalarda (İskoçya, İsviçre) teknik sunum ve temsil görevlerini üstlendim."
-            ]
-          }
-        ]
-      },
-      {
-        "company": "TÜBİTAK 2209-A Projesi",
-        "link": null,
-        "badges": ["Proje"],
-        "jobs": [
-          {
-            "title": "Proje Yürütücüsü (Mezuniyet Projesi)",
-            "start": "Eyl, 2024",
-            "end": "Haz, 2025",
-            "description": [
-              "Yapay Zeka Tabanlı Elektrodinamik Levitasyon Sistemi geliştirdim.",
-              "Doğrusal olmayan sistem dinamikleri için yapay zeka tabanlı modelleme ve kontrol algoritmaları tasarladım.",
-              "C++ ve Python kullanarak simülasyon ve fiziksel prototip üzerinde testler gerçekleştirdim.",
-              "Modern kontrol ve veri odaklı çözümler konusunda derinlemesine uzmanlık edindim."
+            "title": "Ar-Ge Mühendisi",
+            "start": "Ekim 2021",
+            "end": "Ekim 2024",
+            "description": "2021'de başlayan Türkiye'nin öncü Hyperloop teknolojisi ekibi Starloop'un yolculuğuna mekanik ekip üyesi olarak katıldım. Zamanla artan sorumluluklar üstlendim ve mekanik ekip liderliği ve kaptan yardımcılığı görevlerini üstlendim. Bu süreçte projemizin omurgasını oluşturan tasarım, üretim ve analiz gibi kritik teknik süreçleri yönettim.",
+            "achievements": [
+              "Türkiye'nin ilk levitasyon başarısını gerçekleştirerek bir emsal oluşturma",
+              "TEKNOFEST 2024'te ikinci ödül ve 'İtki Sistemi Geliştirme Ödülü' kazanma",
+              "2023'te İskoçya'da ve 2024'te İsviçre'de düzenlenen Avrupa Hyperloop Haftası'nda Türkiye'yi temsil etme"
+            ],
+            "responsibilities": [
+              "Mekanik sistem tasarımı ve CAD modelleme",
+              "Ekip liderliği ve proje koordinasyonu",
+              "Prototip üzerinde test ve analiz çalışmaları",
+              "Uluslararası yarışmalarda teknik sunum ve temsil"
+            ],
+            "technologies": [
+              "SOLIDWORKS, Fusion360, Ansys Workbench",
+              "Prototip üretim ve test süreçleri",
+              "Ekip yönetimi ve proje planlama araçları"
             ]
           }
         ]
@@ -107,13 +134,42 @@
     ]
   },
   "projects": {
-    "title": "Projeler & Çalışmalar",
+    "title": "Projeler",
     "not-found": "Proje bulunamadı",
     "preview": "Önizleme",
     "github": "GitHub",
     "items": [
       {
-        "title": "TÜBİTAK 2209-A: Yapay Zeka Tabanlı Levitasyon Sistemi",
+        "title": "VizCad - STL Düzenleme ve Görselleştirme Uygulaması",
+        "tags": [
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Web Geliştirme", "icon": "WebIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindIcon" }
+        ],
+        "description": "Haziran 2025 - Devam Ediyor\n\nModern Web Geliştirme Projesi\n\nReact ve TypeScript kullanarak geliştirdiğim web projesi. STL dosyalarını düzenleme ve görselleştirme imkanı sunan, Tailwind CSS ve Shadcn UI ile modern ve kullanıcı dostu arayüze sahip uygulama.\n\nTeknik Özellikler:\n• React ve TypeScript ile frontend geliştirme\n• STL dosya formatı işleme ve manipülasyon\n• 3D görselleştirme ve interaktif kullanıcı arayüzü\n• Tailwind CSS ve Shadcn UI ile responsive tasarım\n• Modern web teknolojileri entegrasyonu",
+        "link": {
+          "github": "[GitHub hesabınız]",
+          "preview": null
+        },
+        "image": "/projects/images/vizcad-stl-editor.png"
+      },
+      {
+        "title": "ECG QRS Tespit Algoritması",
+        "tags": [
+          { "name": "PyTorch", "icon": "PyTorchIcon" },
+          { "name": "TensorFlow", "icon": "TensorFlowIcon" },
+          { "name": "Derin Öğrenme", "icon": "DLICon" },
+          { "name": "Sinyal İşleme", "icon": "SignalIcon" }
+        ],
+        "description": "Nisan - Mayıs 2025\n\nYapay Zeka & Derin Öğrenme Projesi\n\nÜniversite hayatım boyunca gömülü sistemlerden modern web uygulamalarına kadar uzanan geniş programlama deneyimimi, PyTorch ve TensorFlow kullanarak geliştirdiğim bu projede derin öğrenme modellerini gerçek dünya verisi üzerinde uygulayarak somutlaştırdım.\n\nTeknik Özellikler:\n• PyTorch ve TensorFlow ile derin öğrenme modeli geliştirme\n• Gerçek ECG verisi üzerinde QRS kompleksi tespiti\n• Sinyal işleme ve veri ön işleme teknikleri\n• Model performans optimizasyonu ve değerlendirmesi",
+        "link": {
+          "github": "[GitHub hesabınız]"
+        },
+        "image": "/projects/images/ecg-qrs-detection.png"
+      },
+      {
+        "title": "TÜBİTAK 2209-A: Yapay Zeka Tabanlı Elektrodinamik Levitasyon Sistemi",
         "tags": [
           { "name": "Python", "icon": "PythonIcon" },
           { "name": "C++", "icon": "CIcon" },
@@ -121,7 +177,7 @@
           { "name": "Yapay Zeka (AI)", "icon": "AIIcon" },
           { "name": "Kontrol Sistemleri", "icon": "ControlIcon" }
         ],
-        "description": "TÜBİTAK destekli, doğrusal olmayan elektrodinamik levitasyon sisteminin AI tabanlı kontrolü ve modellemesi.",
+        "description": "Eylül 2024 - Haziran 2025 | Mezuniyet Projesi\n\nProje Özeti:\nTÜBİTAK 2209-A programı tarafından desteklenen mezuniyet projemde, doğrusal olmayan bir elektrodinamik levitasyon sisteminin kontrolü üzerine çalışıyorum. Bu kapsamda sistem dinamiklerini anlama ve kontrol etmeye yönelik yapay zeka tabanlı modeller geliştirirken, modern kontrol algoritmalarını tasarlıyorum.\n\nTeknik Yaklaşım:\n• Elektrodinamik levitasyon sistemi için özel deney seti tasarımı ve üretimi\n• Doğrusal olmayan sistem dinamiklerini anlama ve kontrol etmeye yönelik yapay zeka tabanlı model geliştirme\n• Modern kontrol algoritmalarının tasarımı ve implementasyonu\n• MATLAB/Simulink ortamında kapsamlı simülasyon çalışmaları ile model ve kontrolcü performans doğrulaması\n• Fiziksel prototip üzerinden deneysel veri toplama ve analiz süreçleri\n• Toplanan verileri kullanarak AI tabanlı sistem modelinin doğruluğunu artırma ve kontrol stratejilerini optimize etme\n\nGeliştirme Deneyimi: Bu projede C++ ve Python gibi dillerle güçlü bir teknik altyapı oluşturdum. Kontrol sistemleri ve veri odaklı çözümler konusunda derinlemesine bilgi edinmemi sağlayan bu çalışma, yapay zeka tabanlı modelleme ve simülasyon alanındaki uzmanlığımı güçlendirdi.\n\nKazanılan Yetkinlikler:\n• Yapay Zeka / Makine Öğrenmesi uygulamaları\n• Kontrol sistemleri tasarımı ve modern kontrol algoritmaları\n• Sistem modelleme ve doğrusal olmayan sistem analizi\n• MATLAB/Simulink ile ileri düzey simülasyon\n• Sensör entegrasyonu ve veri toplama sistemleri\n• Veri analizi ve işleme teknikleri\n• Veriye dayalı kontrol stratejileri ve ayrık zamanlı kontrol sistemleri\n• Prototipin tasarımından uygulamaya tam döngü proje deneyimi\n\nSonuçlar: Sistemin kontrolünü başarıyla gerçekleştirerek, yapay zeka, veriye dayalı modelleme ve kontrol sistemleri alanlarındaki pratik mühendislik yetkinliklerimi ileri seviyeye taşıdım.\n\n📹 Proje Videosu: YouTube Linki",
         "link": {
           "github": "[GitHub hesabınız]",
           "preview": "YouTube Linki"
@@ -136,41 +192,12 @@
           { "name": "Prototip Geliştirme", "icon": "PrototypeIcon" },
           { "name": "Ekip Liderliği", "icon": "LeadershipIcon" }
         ],
-        "description": "Türkiye'nin öncü Hyperloop projesinde mekanik sistem tasarımı, yapısal analiz ve uluslararası yarışma temsilleri.",
+        "description": "Ekim 2021 - Ekim 2024 | Ar-Ge Mühendisi & Ekip Lideri\n\nProje Özeti:\nTürkiye'nin Hyperloop teknolojisindeki öncü projesi Starloop'da 3 yıl boyunca mekanik sistemler geliştirme, ekip liderliği ve uluslararası yarışmalarda temsil görevleri üstlendim.\n\nTeknik Sorumluluklar:\n• Hyperloop kapsülü mekanik sistem tasarımı\n• SOLIDWORKS ve Fusion360 ile 3D modelleme\n• Ansys Workbench ile yapısal analiz ve optimizasyon\n• Prototip üretim süreçleri yönetimi\n• Test ve performans değerlendirme prosedürleri\n\nLiderlik Deneyimi:\n• Mekanik ekip liderliği (5+ kişilik ekip)\n• Kaptan yardımcılığı görevleri\n• Proje zaman çizelgesi ve kaynak yönetimi\n• Teknik dokümantasyon ve raporlama\n\nÖnemli Başarılar:\n• Türkiye'nin İlk Levitasyonu: Ülkemizde bir ilke imza atarak elektrodinamik levitasyon başarısını gerçekleştirdik\n• TEKNOFEST 2024: İkincilik ödülü ve 'İtki Sistemi Geliştirme Ödülü'\n• TEKNOFEST 2023: Katılım ve teknoloji gösterim\n• TEKNOFEST 2022: Teknoloji Gösterim Ödülü\n• Uluslararası Temsil: 2023 İskoçya ve 2024 İsviçre Avrupa Hyperloop Haftası\n\nKullanılan Teknolojiler:\n• CAD: SOLIDWORKS, Fusion360, Solid Edge\n• Analiz: Ansys Workbench, STAR CCM+\n• Prototip: 3D Printing, CNC İşleme\n• Kontrol: Arduino, PIC Microcontrollers\n• Programlama: C, C++, Python",
         "link": {
           "github": "[GitHub hesabınız]",
           "preview": null
         },
         "image": ""
-      },
-      {
-        "title": "ECG QRS Tespit Algoritması",
-        "tags": [
-          { "name": "PyTorch", "icon": "PyTorchIcon" },
-          { "name": "TensorFlow", "icon": "TensorFlowIcon" },
-          { "name": "Derin Öğrenme", "icon": "DLICon" },
-          { "name": "Sinyal İşleme", "icon": "SignalIcon" }
-        ],
-        "description": "PyTorch ve TensorFlow kullanılarak gerçek ECG verisi üzerinde QRS kompleksi tespiti için derin öğrenme modeli geliştirilmesi.",
-        "link": {
-          "github": "[GitHub hesabınız]"
-        },
-        "image": "/projects/images/ecg-qrs-detection.png"
-      },
-      {
-        "title": "VizCad - STL Düzenleme ve Görselleştirme",
-        "tags": [
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Web Geliştirme", "icon": "WebIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindIcon" }
-        ],
-        "description": "STL dosyalarını düzenleme ve görselleştirme imkanı sunan modern, kullanıcı dostu web uygulaması.",
-        "link": {
-          "github": "[GitHub hesabınız]",
-          "preview": null
-        },
-        "image": "/projects/images/vizcad-stl-editor.png"
       }
     ]
   },

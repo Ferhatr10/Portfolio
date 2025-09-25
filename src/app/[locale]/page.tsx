@@ -1,8 +1,8 @@
 import { Section } from "@/components/ui/section"
 import { Hero } from "@/components/hero"
+import { SimpleCareer } from "@/components/career/simple"
 import { Projects } from "@/components/projects"
 import { Services } from "@/components/services"
-import { Blog } from "@/components/blog"
 
 export default function Home() {
   return (
@@ -11,12 +11,16 @@ export default function Home() {
         <Hero />
       </Section>
 
-      <Section id="work">
-        <Projects />
-      </Section>
-
       <Section id="services">
         <Services />
+      </Section>
+
+      <Section id="career">
+        <SimpleCareer />
+      </Section>
+
+      <Section id="work">
+        <Projects />
       </Section>
     </div>
   )

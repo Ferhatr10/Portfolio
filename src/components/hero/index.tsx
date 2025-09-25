@@ -9,9 +9,8 @@ export function Hero() {
   const t = useTranslations()
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8 py-8">
       <div className="flex items-center gap-4">
-        <h1 className="text-4xl font-bold text-gray-900 dark:text-white">{t('hero.about.title')}</h1>
         <Badge variant="secondary" className="bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200">
           {t('hero.badge.developer')}
         </Badge>
@@ -20,10 +19,17 @@ export function Hero() {
           {t('hero.badge.location')}
         </Badge>
       </div>
+      <div className="space-y-4">
+        <h1 className="text-5xl font-bold text-gray-900 dark:text-white">{t('hero.about.title')}</h1>
+      </div>
 
-      <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl">
-        {t('hero.about.description')}
-      </p>
+      <div className="space-y-4">
+        {t.raw('hero.about.description').map((paragraph: string, index: number) => (
+          <p key={index} className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl">
+            {paragraph}
+          </p>
+        ))}
+      </div>
 
       <div className="flex items-center gap-3">
         <Button className="bg-amber-600 hover:bg-amber-700 text-white">

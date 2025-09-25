@@ -23,14 +23,42 @@ export function CareerItem({ link, company, jobs, badges }: CareerProps) {
           <h4 className='text-lg font-medium dark:text-neutral-100 text-neutral-900'>
             {job.title}
           </h4>
-          <time className='text-sm font-mono leading-none text-neutral-800 dark:text-neutral-200'>
+          <time className='text-sm leading-none text-neutral-800 dark:text-neutral-200'>
             {job.start} — {job.end}
           </time>
-          <ul className='mt-1 dark:text-neutral-400 text-neutral-600 text-pretty font-mono'>
-            {job.description.map((item, index) => (
-              <li key={index}>- {item}</li>
-            ))}
-          </ul>
+          <p className='mt-1 dark:text-neutral-400 text-neutral-600 text-pretty'>
+            {job.description}
+          </p>
+          {job.achievements && (
+            <div className='mt-2'>
+              <h5 className='text-sm font-semibold dark:text-neutral-300 text-neutral-700 mb-1'>Achievements:</h5>
+              <ul className='dark:text-neutral-400 text-neutral-600 text-pretty'>
+                {job.achievements.map((item, index) => (
+                  <li key={index}>- {item}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {job.responsibilities && (
+            <div className='mt-2'>
+              <h5 className='text-sm font-semibold dark:text-neutral-300 text-neutral-700 mb-1'>Responsibilities:</h5>
+              <ul className='dark:text-neutral-400 text-neutral-600 text-pretty'>
+                {job.responsibilities.map((item, index) => (
+                  <li key={index}>- {item}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {job.technologies && (
+            <div className='mt-2'>
+              <h5 className='text-sm font-semibold dark:text-neutral-300 text-neutral-700 mb-1'>Technologies:</h5>
+              <ul className='dark:text-neutral-400 text-neutral-600 text-pretty'>
+                {job.technologies.map((item, index) => (
+                  <li key={index}>- {item}</li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       ))}
 

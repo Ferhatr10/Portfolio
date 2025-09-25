@@ -27,16 +27,17 @@
     "links": {
       "github": "GitHub",
       "linkedin": "LinkedIn",
-      "twitter": "X (Twitter)",
-      "email": "Email",
-      "cvapp": "CV App"
+      "email": "Email"
     }
   },
   "hero": {
     "available": "Available",
     "about": {
       "title": "Hello, I'm Ferhat",
-      "description": "Mechatronics Engineer specializing in Control Systems, AI, and Advanced Technology.An experienced professional focused on shaping the future with innovative technologies and developing AI-powered solutions for complex engineering problems. I aim to deliver measurable results through my expertise in Hyperloop, control systems, and R&D."
+      "description": [
+        "I graduated as an Honors Student from the Mechatronics Engineering department at Yıldız Technical University. Throughout my education, I gained extensive experience spanning from the design of physical systems to software applications, working in fields such as mechanical design, embedded coding, modeling, and control.",
+        "What makes engineering valuable to me is not just technical knowledge, but the passion for understanding, designing, and continuously improving complex systems. Moving forward, I aim to master data-driven Artificial Intelligence solutions and further develop my engineering skills in innovative projects."
+      ]
     },
     "badge": {
       "developer": "Mechatronics Engineer",
@@ -47,23 +48,56 @@
       "copyEmail": "Copy email"
     }
   },
+  "services": {
+    "title": "Services"
+  },
+  "achievements": {
+    "title": "Featured Achievements",
+    "subtitle": "My journey and accomplishments in engineering and innovation",
+    "items": [
+      "Pioneering Competition Success: Leading the team that achieved Turkey's first Hyperloop levitation success and won Second Place at TEKNOFEST 2024, proving engineering expertise at national level.",
+      "3+ Years Advanced Technology Expertise: Over 3 years of comprehensive R&D and application experience in Hyperloop, Artificial Intelligence (AI), Robotics, and Advanced Control Systems.",
+      "International Representation and Experience: Successfully representing Turkey with our projects in international competitions held in 2 different European countries (Scotland and Switzerland).",
+      "Defense Industry Internship Experience (TÜBİTAK SAGE): Gaining in-depth practical knowledge in control systems, simulation, and stability analysis at TÜBİTAK SAGE.",
+      "TÜBİTAK Supported Artificial Intelligence Project: Successfully completing a TÜBİTAK 2209-A program AI-based Graduation Project focused on control of nonlinear systems."
+    ]
+  },
+  "statistics": {
+    "title": "Statistics",
+    "subtitle": "Key metrics from my professional journey",
+    "items": [
+      "3+ Years Hyperloop Experience",
+      "2 TEKNOFEST Awards",
+      "2 International Competition Representations",
+      "1 TÜBİTAK Supported Project"
+    ]
+  },
   "career": {
     "title": "Career & Experience",
     "viewMore": "View more",
+    "highlights": [
+      "⚡ TÜBİTAK SAGE Intern - Defense industry control systems specialization",
+      "🚀 Turkey's First Levitation Success - Pioneering technology development leadership",
+      "🏆 TEKNOFEST 2024 Second Place Award - National level engineering success",
+      "🌍 European Hyperloop Week Representative - Scotland & Switzerland international competitions",
+      "🎯 3+ Years Advanced Technology Experience - From control systems to artificial intelligence broad spectrum"
+    ],
     "companies": [
       {
         "company": "TÜBİTAK SAGE",
         "link": null,
-        "badges": ["Ankara"],
+        "badges": ["Ankara, Turkey"],
         "jobs": [
           {
             "title": "Mechatronics Engineering Intern",
-            "start": "Aug, 2025",
+            "start": "August 2025",
             "end": "Present",
-            "description": [
-              "Designed controllers and performed stability analysis using DC motor models.",
-              "Conducted performance evaluations and technical reporting by simulating motor behavior.",
-              "Developed practical and effective engineering solutions, deepening my knowledge of control systems."
+            "description": "During my internship in the Mechatronics department, I focused on control systems. I performed system stability analyses using controller design and DC motor models. By successfully simulating motor behavior, I conducted comprehensive performance evaluations and documented the results in detailed technical reports. This process not only deepened my knowledge of control systems but also significantly enhanced my ability to develop practical and effective engineering solutions.",
+            "responsibilities": [
+              "DC motor controller design and optimization",
+              "System stability analysis and performance evaluation",
+              "Motor simulation using MATLAB/Simulink",
+              "Technical documentation and reporting"
             ]
           }
         ]
@@ -71,35 +105,28 @@
       {
         "company": "Starloop",
         "link": null,
-        "badges": ["Istanbul", "R&D"],
+        "badges": ["Istanbul, Turkey"],
         "jobs": [
           {
-            "title": "R&D Engineer & Mechanical Team Leader",
-            "start": "Oct, 2021",
-            "end": "Oct, 2024",
-            "description": [
-              "Led the team that achieved Turkey's first Hyperloop levitation success.",
-              "Won second place and the 'Propulsion System Development Award' at TEKNOFEST 2024.",
-              "Managed mechanical system design and analysis processes using SOLIDWORKS and Ansys.",
-              "Undertook technical presentation and representation duties in international competitions (Scotland, Switzerland)."
-            ]
-          }
-        ]
-      },
-      {
-        "company": "TÜBİTAK 2209-A Project",
-        "link": null,
-        "badges": ["Project"],
-        "jobs": [
-          {
-            "title": "Project Coordinator (Graduation Project)",
-            "start": "Sep, 2024",
-            "end": "Jun, 2025",
-            "description": [
-              "Developed an AI-Based Electrodynamic Levitation System.",
-              "Designed AI-based modeling and control algorithms for non-linear system dynamics.",
-              "Conducted simulations and physical prototype tests using C++ and Python.",
-              "Gained in-depth expertise in modern control and data-driven solutions."
+            "title": "R&D Engineer",
+            "start": "October 2021",
+            "end": "October 2024",
+            "description": "Joined Turkey's pioneering Hyperloop technology team Starloop's journey that began in 2021 as a mechanical team member. Over time, I took on increasing responsibilities and assumed mechanical team leadership and deputy captain duties. During this process, I led critical technical processes such as design, production and analysis that formed the backbone of our project.",
+            "achievements": [
+              "Achieved Turkey's first levitation success, setting a precedent",
+              "Won second place and 'Propulsion System Development Award' at TEKNOFEST 2024",
+              "Represented Turkey at European Hyperloop Week held in Scotland in 2023 and Switzerland in 2024"
+            ],
+            "responsibilities": [
+              "Mechanical system design and CAD modeling",
+              "Team leadership and project coordination",
+              "Testing and analysis work on prototypes",
+              "Technical presentation and representation in international competitions"
+            ],
+            "technologies": [
+              "SOLIDWORKS, Fusion360, Ansys Workbench",
+              "Prototype production and testing processes",
+              "Team management and project planning tools"
             ]
           }
         ]
@@ -107,13 +134,42 @@
     ]
   },
   "projects": {
-    "title": "Projects & Crafts",
+    "title": "Projects",
     "not-found": "No projects found",
     "preview": "Preview",
     "github": "GitHub",
     "items": [
       {
-        "title": "TÜBİTAK 2209-A: AI-Based Levitation System",
+        "title": "VizCad - STL Editing and Visualization Application",
+        "tags": [
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Web Development", "icon": "WebIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindIcon" }
+        ],
+        "description": "June 2025 - Present\n\nModern Web Development Project\n\nWeb project I developed using React and TypeScript. An application with a modern and user-friendly interface using Tailwind CSS and Shadcn UI that offers the ability to edit and visualize STL files.\n\nTechnical Features:\n• Frontend development with React and TypeScript\n• STL file format processing and manipulation\n• 3D visualization and interactive user interface\n• Responsive design with Tailwind CSS and Shadcn UI\n• Modern web technologies integration",
+        "link": {
+          "github": "[Your GitHub account]",
+          "preview": null
+        },
+        "image": "/projects/images/vizcad-stl-editor.png"
+      },
+      {
+        "title": "ECG QRS Detection Algorithm",
+        "tags": [
+          { "name": "PyTorch", "icon": "PyTorchIcon" },
+          { "name": "TensorFlow", "icon": "TensorFlowIcon" },
+          { "name": "Deep Learning", "icon": "DLICon" },
+          { "name": "Signal Processing", "icon": "SignalIcon" }
+        ],
+        "description": "April - May 2025\n\nAI & Deep Learning Project\n\nThroughout my university life, I materialized my broad programming experience ranging from embedded systems to modern web applications by applying deep learning models on real-world data in this project I developed using PyTorch and TensorFlow.\n\nTechnical Features:\n• Deep learning model development with PyTorch and TensorFlow\n• QRS complex detection on real ECG data\n• Signal processing and data preprocessing techniques\n• Model performance optimization and evaluation",
+        "link": {
+          "github": "[Your GitHub account]"
+        },
+        "image": "/projects/images/ecg-qrs-detection.png"
+      },
+      {
+        "title": "🧠 TÜBİTAK 2209-A: AI-Based Electrodynamic Levitation System",
         "tags": [
           { "name": "Python", "icon": "PythonIcon" },
           { "name": "C++", "icon": "CIcon" },
@@ -121,7 +177,7 @@
           { "name": "Artificial Intelligence (AI)", "icon": "AIIcon" },
           { "name": "Control Systems", "icon": "ControlIcon" }
         ],
-        "description": "TÜBİTAK-supported AI-based control and modeling of a non-linear electrodynamic levitation system.",
+        "description": "September 2024 - June 2025 | Graduation Project\n\nProject Summary:\nIn my TÜBİTAK 2209-A supported graduation project, I am working on the control of a non-linear electrodynamic levitation system. In this context, I develop AI-based models to understand and control system dynamics, while designing modern control algorithms.\n\nTechnical Approach:\n• Special experimental setup design and production for electrodynamic levitation system\n• Development of AI-based models to understand and control non-linear system dynamics\n• Design and implementation of modern control algorithms\n• Comprehensive simulation studies in MATLAB/Simulink environment to verify model and controller performance\n• Experimental data collection and analysis processes through physical prototype\n• Increasing the accuracy of AI-based system model using collected data and optimizing control strategies\n\nDevelopment Experience: In this project, I built a strong technical foundation with languages like C++ and Python. This work, which provided me with in-depth knowledge in control systems and data-driven solutions, strengthened my expertise in AI-based modeling and simulation.\n\nGained Competencies:\n• Artificial Intelligence / Machine Learning applications\n• Control systems design and modern control algorithms\n• System modeling and non-linear system analysis\n• Advanced simulation with MATLAB/Simulink\n• Sensor integration and data collection systems\n• Data analysis and processing techniques\n• Data-driven control strategies and discrete-time control systems\n• Full-cycle project experience from prototype design to implementation\n\nResults: I successfully controlled the system, advancing my practical engineering competencies in AI, data-driven modeling, and control systems to an advanced level.\n\n📹 Project Video: YouTube Link",
         "link": {
           "github": "[Your GitHub account]",
           "preview": "YouTube Link"
@@ -136,41 +192,12 @@
           { "name": "Prototype Development", "icon": "PrototypeIcon" },
           { "name": "Team Leadership", "icon": "LeadershipIcon" }
         ],
-        "description": "Mechanical system design, structural analysis, and international competition representation in Turkey's leading Hyperloop project.",
+        "description": "October 2021 - October 2024 | R&D Engineer & Team Leader\n\nProject Summary:\nIn Turkey's pioneering Hyperloop technology project Starloop, I served for 3 years in mechanical systems development, team leadership, and representation duties in international competitions.\n\nTechnical Responsibilities:\n• Hyperloop capsule mechanical system design\n• 3D modeling with SOLIDWORKS and Fusion360\n• Structural analysis and optimization with Ansys Workbench\n• Prototype production process management\n• Test and performance evaluation procedures\n\nLeadership Experience:\n• Mechanical team leadership (5+ person team)\n• Deputy captain duties\n• Project timeline and resource management\n• Technical documentation and reporting\n\nImportant Achievements:\n• Turkey's First Levitation: We achieved the electrodynamic levitation success, setting a precedent in our country\n• TEKNOFEST 2024: Second place award and 'Propulsion System Development Award'\n• TEKNOFEST 2023: Participation and technology demonstration\n• TEKNOFEST 2022: Technology Demonstration Award\n• International Representation: European Hyperloop Week 2023 Scotland and 2024 Switzerland\n\nUsed Technologies:\n• CAD: SOLIDWORKS, Fusion360, Solid Edge\n• Analysis: Ansys Workbench, STAR CCM+\n• Prototype: 3D Printing, CNC Machining\n• Control: Arduino, PIC Microcontrollers\n• Programming: C, C++, Python",
         "link": {
           "github": "[Your GitHub account]",
           "preview": null
         },
         "image": ""
-      },
-      {
-        "title": "ECG QRS Detection Algorithm",
-        "tags": [
-          { "name": "PyTorch", "icon": "PyTorchIcon" },
-          { "name": "TensorFlow", "icon": "TensorFlowIcon" },
-          { "name": "Deep Learning", "icon": "DLICon" },
-          { "name": "Signal Processing", "icon": "SignalIcon" }
-        ],
-        "description": "Development of a deep learning model for QRS complex detection on real ECG data using PyTorch and TensorFlow.",
-        "link": {
-          "github": "[Your GitHub account]"
-        },
-        "image": "/projects/images/ecg-qrs-detection.png"
-      },
-      {
-        "title": "VizCad - STL Editing and Visualization",
-        "tags": [
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Web Development", "icon": "WebIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindIcon" }
-        ],
-        "description": "A modern, user-friendly web application offering the ability to edit and visualize STL files.",
-        "link": {
-          "github": "[Your GitHub account]",
-          "preview": null
-        },
-        "image": "/projects/images/vizcad-stl-editor.png"
       }
     ]
   },

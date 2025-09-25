@@ -20,7 +20,10 @@ export interface JobsProps {
   title: string
   start: string
   end: string
-  description: string[]
+  description: string
+  achievements?: string[]
+  responsibilities?: string[]
+  technologies?: string[]
 }
 
 export interface CareerProps {
