@@ -1,141 +1,80 @@
-import Image from 'next/image'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle
-} from '../ui/card'
-import { Tooltip, TooltipTrigger, TooltipContent } from '../ui/tooltip'
-import { Badge } from '../ui/badge'
-import { Button } from '../ui/button'
-import { ArrowUpRightIcon, LinkIcon } from 'lucide-react'
-import { GitHubIcon } from '../icons/github'
-import { useTranslations } from 'next-intl'
-import type { ProjectProps } from '@/types'
+"use client"
 
-export function ProjectCard({ projects }: { projects: ProjectProps[] }) {
+import Image from "next/image"
+import { Card, CardContent } from "../ui/card"
+import { Badge } from "../ui/badge"
+import { Button } from "../ui/button"
+import { LinkIcon, Github } from "lucide-react"
+import { useTranslations } from "next-intl"
+import type { ProjectProps } from "@/types"
+
+export function ProjectCard({ project }: { project: ProjectProps }) {
   const t = useTranslations()
+  const { title, description, tags, image, video, link } = project
+
   return (
-    <div className='flex flex-col gap-4'>
-      {projects.map(({ title, description, tags, image, video, link }) => (
-        <Card key={title} className='flex flex-col border shadow w-full'>
-          <CardHeader className='flex flex-col space-y-2 p-4'>
-            <CardTitle className='text-xl dark:text-neutral-100 text-neutral-900'>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  {link.preview ? (
-                    <a
-                      href={link.preview}
-                      target='_blank'
-                      rel='noreferrer'
-                      className='inline-flex items-center hover:underline group underline-offset-4 gap-2'
-                    >
-                      <h3>{title}</h3>
-                      <ArrowUpRightIcon className='size-4 text-neutral-500 dark:group-hover:text-neutral-100 group-hover:text-neutral-900' />
-                    </a>
-                  ) : (
-                    link.github && (
-                      <a
-                        href={link.github}
-                        target='_blank'
-                        rel='noreferrer'
-                        className='inline-flex items-center hover:underline group underline-offset-4 gap-2'
-                      >
-                        <h3>{title}</h3>
-                        <ArrowUpRightIcon className='size-4 text-neutral-500 dark:group-hover:text-neutral-100 group-hover:text-neutral-900' />
-                      </a>
-                    )
-                  )}
-                </TooltipTrigger>
-                <TooltipContent className='p-1' side='bottom'>
-                  {image ? (
-                    <Image
-                      className='rounded object-fill max-w-xs w-full mx-auto'
-                      width={1920}
-                      height={1280}
-                      src={image}
-                      alt={title}
-                      loading='lazy'
-                    />
-                  ) : (
-                    video && (
-                      <video
-                        className='rounded object-fill max-w-xs w-full mx-auto'
-                        width={1920}
-                        height={1280}
-                        muted
-                        autoPlay
-                        loop
-                      >
-                        <source src={video} type='video/webm' />
-                      </video>
-                    )
-                  )}
-                </TooltipContent>
-              </Tooltip>
-            </CardTitle>
+    <Card className="group overflow-hidden border-0 shadow-sm hover:shadow-md transition-shadow bg-white dark:bg-gray-800">
+      {/* Project Image */}
+      <div className="aspect-video bg-gray-100 dark:bg-gray-700 overflow-hidden">
+        {image ? (
+          <Image
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            width={400}
+            height={240}
+            src={image || "/placeholder.svg"}
+            alt={title}
+            loading="lazy"
+          />
+        ) : video ? (
+          <video className="w-full h-full object-cover" width={400} height={240} muted autoPlay loop>
+            <source src={video} type="video/webm" />
+          </video>
+        ) : (
+          <div className="w-full h-full flex items-center justify-center">
+            <div className="w-16 h-16 bg-gray-200 dark:bg-gray-600 rounded-lg"></div>
+          </div>
+        )}
+      </div>
 
-            <CardDescription className='font-mono dark:text-neutral-400 text-neutral-600'>
-              {description}
-            </CardDescription>
-          </CardHeader>
+      <CardContent className="p-6">
+        <div className="space-y-3">
+          <div>
+            <h3 className="font-semibold text-gray-900 dark:text-white mb-1">{title}</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400">{description}</p>
+          </div>
 
-          <CardContent className='flex flex-col space-y-6 p-4 pt-0'>
-            <div className='flex flex-wrap gap-2'>
-              {tags.map((tag) => (
-                <Badge
-                  className='p-1 gap-1 rounded-md shadow'
-                  variant='secondary'
-                  key={tag.name}
-                >
-                  <tag.icon className='size-4' />
-                  <p className='text-xs'>{tag.name}</p>
-                </Badge>
-              ))}
-            </div>
+          <div className="flex flex-wrap gap-2">
+            {tags.slice(0, 3).map((tag) => (
+              <Badge
+                key={tag.name}
+                variant="secondary"
+                className="text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300"
+              >
+                {tag.name}
+              </Badge>
+            ))}
+          </div>
 
-            <div className='flex gap-x-2'>
-              {link.preview && (
-                <Button
-                  variant='default'
-                  size={null}
-                  className='p-2 shadow'
-                  asChild
-                >
-                  <a
-                    href={link.preview}
-                    target='_blank'
-                    rel='noreferrer'
-                    className='flex items-center gap-2'
-                  >
-                    <LinkIcon className='size-4' />
-                    <p>{t('projects.preview')}</p>
-                  </a>
-                </Button>
-              )}
-              {link.github && (
-                <Button
-                  variant='default'
-                  size={null}
-                  className='p-2 shadow'
-                  asChild
-                >
-                  <a
-                    href={link.github}
-                    target='_blank'
-                    rel='noreferrer'
-                    className='flex items-center gap-2'
-                  >
-                    <GitHubIcon className='size-4' />
-                    <p>{t('projects.github')}</p>
-                  </a>
-                </Button>
-              )}
-            </div>
-          </CardContent>
-        </Card>
-      ))}
-    </div>
+          <div className="flex gap-2 pt-2">
+            {link.preview && (
+              <Button variant="outline" size="sm" className="text-xs" asChild>
+                <a href={link.preview} target="_blank" rel="noreferrer" className="flex items-center gap-1">
+                  <LinkIcon className="w-3 h-3" />
+                  Preview
+                </a>
+              </Button>
+            )}
+            {link.github && (
+              <Button variant="outline" size="sm" className="text-xs" asChild>
+                <a href={link.github} target="_blank" rel="noreferrer" className="flex items-center gap-1">
+                  <Github className="w-3 h-3" />
+                  Code
+                </a>
+              </Button>
+            )}
+          </div>
+        </div>
+      </CardContent>
+    </Card>
   )
 }

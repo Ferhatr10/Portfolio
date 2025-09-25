@@ -27,7 +27,7 @@ import {
 import type { IconComponent } from '@/types'
 
 export const AVATAR = {
-  name: 'Emanuel Peire',
+  name: 'Ferhat Rudvanoğulları',
   initials: 'EP'
 }
 

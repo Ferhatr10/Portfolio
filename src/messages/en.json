@@ -18,188 +18,88 @@
     },
     "settings": "Settings"
   },
+  "sidebar": {
+    "avatar": {
+      "name": "Ferhat R.",
+      "initials": "FR",
+      "role": "Mechatronics Engineer"
+    },
+    "links": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "twitter": "X (Twitter)",
+      "email": "Email",
+      "cvapp": "CV App"
+    }
+  },
   "hero": {
     "available": "Available",
     "about": {
-      "title": "Frontend Engineer, Developer Relations and AI research enthusiast. Always influenced by design. Based in Rosario, Argentina 🇦🇷",
-      "description": "Passionate about creating innovative tech solutions for social impact. Focused on using advanced frontend technologies to improve accessibility and performance in web applications. My main goal is to enhance user experience, making the web a better place for everyone."
+      "title": "Hello, I'm Ferhat",
+      "description": "Mechatronics Engineer specializing in Control Systems, AI, and Advanced Technology.An experienced professional focused on shaping the future with innovative technologies and developing AI-powered solutions for complex engineering problems. I aim to deliver measurable results through my expertise in Hyperloop, control systems, and R&D."
+    },
+    "badge": {
+      "developer": "Mechatronics Engineer",
+      "location": "Turkey"
+    },
+    "buttons": {
+      "resume": "Resume",
+      "copyEmail": "Copy email"
     }
   },
   "career": {
-    "title": "Career & Works",
+    "title": "Career & Experience",
     "viewMore": "View more",
     "companies": [
       {
-        "company": "Frontend Lab",
-        "link": "https://github.com/thefrontendlab",
-        "badges": ["Hybrid"],
+        "company": "TÜBİTAK SAGE",
+        "link": null,
+        "badges": ["Ankara"],
         "jobs": [
           {
-            "title": "Frontend Developer & Technical Researcher",
-            "start": "Aug, 2023",
+            "title": "Mechatronics Engineering Intern",
+            "start": "Aug, 2025",
             "end": "Present",
             "description": [
-              "Researched and implemented new frontend technologies and tools.",
-              "Developed innovative solutions to improve the frontend community.",
-              "Conducted technical research to stay ahead of industry trends.",
-              "Created and maintained open-source projects.",
-              "Collaborated with team members to enhance project outcomes."
-            ]
-          },
-          {
-            "title": "Technical Researcher & Content Developer",
-            "start": "Jul, 2021",
-            "end": "Aug, 2023",
-            "description": [
-              "Created technical content to educate and engage the frontend community.",
-              "Developed tutorials and guides on the latest frontend technologies.",
-              "Managed the content strategy to align with community needs and trends.",
-              "Collaborated with experts to produce high-quality, informative content.",
-              "Utilized various platforms to distribute content and maximize reach."
+              "Designed controllers and performed stability analysis using DC motor models.",
+              "Conducted performance evaluations and technical reporting by simulating motor behavior.",
+              "Developed practical and effective engineering solutions, deepening my knowledge of control systems."
             ]
           }
         ]
       },
       {
-        "company": "Next.js Argentina",
-        "link": "https://github.com/nextjsargentina",
-        "badges": ["Hybrid"],
+        "company": "Starloop",
+        "link": null,
+        "badges": ["Istanbul", "R&D"],
         "jobs": [
           {
-            "title": "Developer Experience Architect",
-            "start": "Aug, 2023",
-            "end": "Present",
+            "title": "R&D Engineer & Mechanical Team Leader",
+            "start": "Oct, 2021",
+            "end": "Oct, 2024",
             "description": [
-              "Built and nurtured a non-profit open community for Next.js enthusiasts.",
-              "Developed resources to enhance the developer experience with Next.js.",
-              "Organized community events and workshops.",
-              "Provided mentorship and support to community members.",
-              "Collaborated with other community leaders to expand the community reach."
+              "Led the team that achieved Turkey's first Hyperloop levitation success.",
+              "Won second place and the 'Propulsion System Development Award' at TEKNOFEST 2024.",
+              "Managed mechanical system design and analysis processes using SOLIDWORKS and Ansys.",
+              "Undertook technical presentation and representation duties in international competitions (Scotland, Switzerland)."
             ]
           }
         ]
       },
       {
-        "company": "Estudio Cabeza",
-        "link": "https://estudiocabeza.com",
-        "badges": ["Remote"],
+        "company": "TÜBİTAK 2209-A Project",
+        "link": null,
+        "badges": ["Project"],
         "jobs": [
           {
-            "title": "DevOps & Infrastructure Specialist",
-            "start": "Jul, 2024",
-            "end": "Aug, 2024",
+            "title": "Project Coordinator (Graduation Project)",
+            "start": "Sep, 2024",
+            "end": "Jun, 2025",
             "description": [
-              "Migrated from WordPress to Webflow, boosting performance.",
-              "Configured Cloudflare for SSL and DNS.",
-              "Streamlined deployments to minimize downtime.",
-              "Automated workflows for efficiency.",
-              "Aligned infrastructure with business needs."
-            ]
-          }
-        ]
-      },
-      {
-        "company": "Invisible Technologies",
-        "link": "https://invisible.co",
-        "badges": ["Remote"],
-        "jobs": [
-          {
-            "title": "Operator & Advanced AI Trainer",
-            "start": "May, 2024",
-            "end": "Aug, 2024",
-            "description": [
-              "Managed AI system operations to ensure optimal performance.",
-              "Trained advanced AI models to improve system accuracy.",
-              "Collaborated with cross-functional teams to develop AI solutions.",
-              "Analyzed data to enhance AI training methodologies.",
-              "Implemented feedback to refine AI models continuously."
-            ]
-          }
-        ]
-      },
-      {
-        "company": "BaseHub",
-        "link": "https://basehub.com",
-        "badges": ["Remote"],
-        "jobs": [
-          {
-            "title": "Developer Relations",
-            "start": "Mar, 2024",
-            "end": "Aug, 2024",
-            "description": [
-              "Assisted developers in building applications using BaseHub CMS and native AI.",
-              "Provided technical support and guidance to developers.",
-              "Created documentation and tutorials for better product understanding.",
-              "Organized and conducted webinars and workshops.",
-              "Engaged with the developer community to gather feedback and improve the product."
-            ]
-          }
-        ]
-      },
-      {
-        "company": "Smat.io",
-        "link": "https://smat.io",
-        "badges": ["Remote"],
-        "jobs": [
-          {
-            "title": "QA Tester & Frontend Developer",
-            "start": "Aug, 2022",
-            "end": "Aug, 2023",
-            "description": [
-              "Led QA testing using Jest and Playwright to ensure web applications' quality.",
-              "Implemented Test-Driven Development (TDD) practices.",
-              "Developed user-friendly interfaces with React.js.",
-              "Collaborated with developers to optimize code quality.",
-              "Conducted bug tracking and troubleshooting."
-            ]
-          }
-        ]
-      },
-      {
-        "company": "Maker DAO",
-        "link": "https://makerdao.com",
-        "badges": ["Remote"],
-        "jobs": [
-          {
-            "title": "Technical Writer and Translator",
-            "start": "Feb, 2022",
-            "end": "Aug, 2022",
-            "description": [
-              "Authored technical documentation, including whitepapers, guides, and tutorials.",
-              "Translated complex technical content for diverse audiences.",
-              "Facilitated user understanding of blockchain and DeFi concepts.",
-              "Collaborated with subject matter experts to ensure accuracy.",
-              "Maintained and updated documentation as needed."
-            ]
-          }
-        ]
-      },
-      {
-        "company": "El Chaperón",
-        "badges": ["On-site"],
-        "jobs": [
-          {
-            "title": "Web Designer & Community Manager",
-            "start": "Jan, 2019",
-            "end": "Dec, 2021",
-            "description": [
-              "Developed and designed responsive websites using WordPress.",
-              "Managed online tourist services for the city of Rosario.",
-              "Coordinated with the Rosario Hotel Association and Tourist Entity (ETUR).",
-              "Created engaging content for community outreach.",
-              "Implemented SEO strategies to improve website visibility."
-            ]
-          },
-          {
-            "title": "Commercial Advisor",
-            "start": "Jan, 2016",
-            "end": "Dec, 2018",
-            "description": [
-              "Maintained customer database for accuracy.",
-              "Executed marketing strategies to attract customers.",
-              "Managed services and ensured customer satisfaction.",
-              "Designed and implemented promotional campaigns with the marketing team.",
-              "Analyzed feedback and trends to improve services and marketing."
+              "Developed an AI-Based Electrodynamic Levitation System.",
+              "Designed AI-based modeling and control algorithms for non-linear system dynamics.",
+              "Conducted simulations and physical prototype tests using C++ and Python.",
+              "Gained in-depth expertise in modern control and data-driven solutions."
             ]
           }
         ]
@@ -213,456 +113,64 @@
     "github": "GitHub",
     "items": [
       {
-        "title": "BaseHub - Next.js blog",
+        "title": "TÜBİTAK 2209-A: AI-Based Levitation System",
         "tags": [
-          { "name": "BaseHub", "icon": "BasehubIcon" },
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "PNPM", "icon": "PNPMIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Vercel", "icon": "VercelIcon" }
+          { "name": "Python", "icon": "PythonIcon" },
+          { "name": "C++", "icon": "CIcon" },
+          { "name": "MATLAB/Simulink", "icon": "MATLABIcon" },
+          { "name": "Artificial Intelligence (AI)", "icon": "AIIcon" },
+          { "name": "Control Systems", "icon": "ControlIcon" }
         ],
-        "description": "A starter guide template blog made with Next.js and BaseHub CMS. It uses the BaseHub API to fetch and display posts.",
+        "description": "TÜBİTAK-supported AI-based control and modeling of a non-linear electrodynamic levitation system.",
         "link": {
-          "github": "https://github.com/basehub-ai/nextjs-blog",
-          "preview": "https://nextjs-blog-basehub.vercel.app"
+          "github": "[Your GitHub account]",
+          "preview": "YouTube Link"
         },
-        "image": "/projects/images/basehub-nextjs-blog.png"
+        "image": ""
       },
       {
-        "title": "Basement Challenge",
+        "title": "Starloop Hyperloop Development Project",
         "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "PNPM", "icon": "PNPMIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
+          { "name": "SOLIDWORKS", "icon": "SolidworksIcon" },
+          { "name": "Ansys Workbench", "icon": "AnsysIcon" },
+          { "name": "Prototype Development", "icon": "PrototypeIcon" },
+          { "name": "Team Leadership", "icon": "LeadershipIcon" }
         ],
-        "description": "Basement studio stream challenge.",
+        "description": "Mechanical system design, structural analysis, and international competition representation in Turkey's leading Hyperloop project.",
         "link": {
-          "github": "https://github.com/emapeire/basement-challenge",
-          "preview": "https://emapeire-basement-challenge.vercel.app"
+          "github": "[Your GitHub account]",
+          "preview": null
         },
-        "image": "/projects/images/basement-challenge.png"
+        "image": ""
       },
       {
-        "title": "Chat With Vader",
+        "title": "ECG QRS Detection Algorithm",
         "tags": [
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
+          { "name": "PyTorch", "icon": "PyTorchIcon" },
+          { "name": "TensorFlow", "icon": "TensorFlowIcon" },
+          { "name": "Deep Learning", "icon": "DLICon" },
+          { "name": "Signal Processing", "icon": "SignalIcon" }
         ],
-        "description": "A simple chat app that uses the OpenAI API and Vercel AI SDK to chat with Darth Vader.",
+        "description": "Development of a deep learning model for QRS complex detection on real ECG data using PyTorch and TensorFlow.",
         "link": {
-          "github": "https://github.com/emapeire/chat-with-vader"
+          "github": "[Your GitHub account]"
         },
-        "image": "/projects/images/chat-with-vader.png"
+        "image": "/projects/images/ecg-qrs-detection.png"
       },
       {
-        "title": "Cohere Chat",
+        "title": "VizCad - STL Editing and Visualization",
         "tags": [
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Node.js", "icon": "NodeJSIcon" }
-        ],
-        "description": "A chatbot that uses the Cohere API to generate responses to user input.",
-        "link": {
-          "github": "https://github.com/emapeire/cohere-chat"
-        },
-        "image": "/projects/images/cohere-chat.png"
-      },
-      {
-        "title": "Comments App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
           { "name": "React", "icon": "ReactIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
+          { "name": "Web Development", "icon": "WebIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindIcon" }
         ],
-        "description": "A simple comments app made with React and Vite.",
+        "description": "A modern, user-friendly web application offering the ability to edit and visualize STL files.",
         "link": {
-          "github": "https://github.com/emapeire/comments-react-query"
+          "github": "[Your GitHub account]",
+          "preview": null
         },
-        "image": "/projects/images/comments-app.png"
-      },
-      {
-        "title": "Crud App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Redux", "icon": "ReduxIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "A simple CRUD app made with React and Vite.",
-        "link": {
-          "github": "https://github.com/emapeire/crud-react-redux",
-          "preview": "https://emapeire-crud-react-redux.netlify.app"
-        },
-        "image": "/projects/images/crud-app.png"
-      },
-      {
-        "title": "Eloquent JavaScript Chat",
-        "tags": [
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "In this app you will be able to interact with a intelligent llama that will answer your questions about JavaScript.",
-        "link": {
-          "github": "https://github.com/emapeire/eloquent-js-chat"
-        },
-        "image": "/projects/images/eloquent-js-chat.png"
-      },
-      {
-        "title": "Google Translate UI",
-        "tags": [
-          { "name": "Bootstrap", "icon": "BootstrapIcon" },
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Vite", "icon": "ViteIcon" },
-          { "name": "Vitest", "icon": "VitestIcon" }
-        ],
-        "description": "This is a simple API that uses the OpenAI GPT-4-vision-preview model to generate code from images.",
-        "link": {
-          "github": "https://github.com/emapeire/google-translate-clone"
-        },
-        "image": "/projects/images/google-translate-clone.png"
-      },
-      {
-        "title": "Image 2 Code",
-        "tags": [
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "This is a tool that converts images to code. It uses AI to generate code from images. It is based on the GPT-4-vision-preview model.",
-        "link": {
-          "github": "https://github.com/emapeire/image-to-code"
-        },
-        "video": "/projects/videos/image-2-code.webm"
-      },
-      {
-        "title": "JavaScript Quiz",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "A simple quiz app made with React and Zustand.",
-        "link": {
-          "github": "https://github.com/emapeire/javascript-quiz",
-          "preview": "https://emapeire-javascript-quiz.netlify.app"
-        },
-        "image": "/projects/images/javascript-quiz.png"
-      },
-      {
-        "title": "Mercado Libre Challenge",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "PNPM", "icon": "PNPMIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "Challenge to create a product search app using the Mercado Libre API. Built with Next.js and TypeScript.",
-        "link": {
-          "github": "https://github.com/emapeire/meli-challenge",
-          "preview": "https://emapeire-meli-challenge.vercel.app"
-        },
-        "image": "/projects/images/meli-challenge.png"
-      },
-      {
-        "title": "Mouse Follower",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "A simple mouse follower app made with React and Vite.",
-        "link": {
-          "github": "https://github.com/emapeire/mouse-follower",
-          "preview": "https://emapeire-mouse-follower.netlify.app"
-        },
-        "video": "/projects/videos/mouse-follower.webm"
-      },
-      {
-        "title": "Morty's characters",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "GraphQL", "icon": "GraphQLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "A simple app that lists all Morty's characters. Built with Next.js and GraphQL.",
-        "link": {
-          "github": "https://github.com/emapeire/nextjs-graphql",
-          "preview": "https://emapeire-nextjs-graphql.vercel.app"
-        },
-        "image": "/projects/images/morty-s-characters.png"
-      },
-      {
-        "title": "Movie Search App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "A simple movie search app made with React and Vite.",
-        "link": {
-          "github": "https://github.com/emapeire/react-movie-search",
-          "preview": "https://emapeire-react-movie-search.netlify.app"
-        },
-        "image": "/projects/images/movie-search.png"
-      },
-      {
-        "title": "Next.js Chat App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "PNPM", "icon": "PNPMIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "NextJS-Chat offers beginners a chat-based interface to learn Next.js and best coding practices through an AI expert.",
-        "link": {
-          "github": "https://github.com/nextjsargentina/next.js-chat"
-        },
-        "video": "/projects/videos/nextjs-chat.webm"
-      },
-      {
-        "title": "Next.js Releases App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "PNPM", "icon": "PNPMIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "NextJS Releases is an App that tracks new releases on NextJS's GitHub repo.",
-        "link": {
-          "github": "https://github.com/nextjsargentina/next.js-releases",
-          "preview": "https://nextjs-releases.vercel.app"
-        },
-        "image": "/projects/images/nextjs-releases-app.png"
-      },
-      {
-        "title": "React GPT",
-        "tags": [
-          { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "React", "icon": "ReactIcon" }
-        ],
-        "description": "An AI-driven web engineering expert for React community.",
-        "link": {
-          "preview": "https://chat.openai.com/g/g-HNcbE0A5n-reactgpt"
-        },
-        "image": "/projects/images/react-gpt.png"
-      },
-      {
-        "title": "Screen Recorder",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" }
-        ],
-        "description": "Native screen recorder made with MediaRecorder web-api",
-        "link": {
-          "github": "https://github.com/emapeire/screen-recorder"
-        },
-        "video": "/projects/videos/screen-recorder.webm"
-      },
-      {
-        "title": "Shopping Cart",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "A simple shopping cart app made with React and Vite.",
-        "link": {
-          "github": "https://github.com/emapeire/shopping-cart",
-          "preview": "https://emapeire-shopping-cart.netlify.app"
-        },
-        "image": "/projects/images/shopping-cart.png"
-      },
-      {
-        "title": "Space X Launches",
-        "tags": [
-          { "name": "Astro", "icon": "AstroIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "A simple app that lists all SpaceX launches. Built with Astro and TypeScript.",
-        "link": {
-          "github": "https://github.com/emapeire/spacex-launches",
-          "preview": "https://emapeire-spacex-launches.vercel.app"
-        },
-        "image": "/projects/images/spacex-launches.png"
-      },
-      {
-        "title": "Spotify UI",
-        "tags": [
-          { "name": "Astro", "icon": "AstroIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Svelte", "icon": "SvelteIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "An open-source Spotify clone built with Svelte and Astro.",
-        "link": {
-          "github": "https://github.com/emapeire/spotify-clone",
-          "preview": "https://emapeire-spotify-clone.vercel.app"
-        },
-        "image": "/projects/images/spotify-clone.png"
-      },
-      {
-        "title": "SWC Router",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "SWC", "icon": "SWCIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "Simple single-page applications (SPA) with ease using swc-router. This lightweight routing solution for React applications leverages the speed of SWC.",
-        "link": {
-          "github": "https://github.com/emapeire/swc-router",
-          "preview": "https://npmjs.com/package/swc-router"
-        },
-        "image": "/projects/images/swc-router.png"
-      },
-      {
-        "title": "View Transitions API",
-        "tags": [
-          { "name": "Astro", "icon": "AstroIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" }
-        ],
-        "description": "This is a sample project that demonstrates how to use the View Transitions API with Astro.",
-        "link": {
-          "github": "https://github.com/emapeire/view-transitions-api",
-          "preview": "https://emapeire-view-transitions-api.vercel.app"
-        },
-        "video": "/projects/videos/view-transitions-api.webm"
-      },
-      {
-        "title": "Tesla Landing UI",
-        "tags": [
-          { "name": "Astro", "icon": "AstroIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" }
-        ],
-        "description": "An open-source Tesla landing page built with Astro and Tailwind CSS.",
-        "link": {
-          "github": "https://github.com/emapeire/tesla-landing",
-          "preview": "https://emapeire-tesla-landing.vercel.app"
-        },
-        "video": "/projects/videos/tesla-landing-clone.webm"
-      },
-      {
-        "title": "Tic Tac Toe",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "A simple tic-tac-toe game made with React and TypeScript.",
-        "link": {
-          "github": "https://github.com/emapeire/tic-tac-toe",
-          "preview": "https://emapeire-tic-tac-toe.netlify.app"
-        },
-        "image": "/projects/images/tic-tac-toe.png"
-      },
-      {
-        "title": "Todo App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "A simple todo app made with React and TypeScript.",
-        "link": {
-          "github": "https://github.com/emapeire/todo-app-ts",
-          "preview": "https://emapeire-todo-ts.netlify.app"
-        },
-        "image": "/projects/images/todo-app-ts.png"
-      },
-      {
-        "title": "Twitter Follow Card UI",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "An open-source Twitter follow card built with React and Vite.",
-        "link": {
-          "github": "https://github.com/emapeire/twitter-follow-card",
-          "preview": "https://emapeire-twitter-follow-card.netlify.app"
-        },
-        "image": "/projects/images/twitter-follow-card.png"
-      },
-      {
-        "title": "Twitter UI",
-        "tags": [
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Supabase", "icon": "SupabaseIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "An open-source Twitter clone built with Next.js and Supabase.",
-        "link": {
-          "github": "https://github.com/emapeire/twitter-clone"
-        },
-        "image": "/projects/images/twitter-clone.png"
+        "image": "/projects/images/vizcad-stl-editor.png"
       }
     ]
   },

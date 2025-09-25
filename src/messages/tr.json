@@ -18,11 +18,33 @@
     },
     "settings": "Ayarlar"
   },
+  "sidebar": {
+    "avatar": {
+      "name": "Ferhat R.",
+      "initials": "FR",
+      "role": "Mekatronik Mühendisi"
+    },
+    "links": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "twitter": "X (Twitter)",
+      "email": "E-posta",
+      "cvapp": "CV Uygulaması"
+    }
+  },
   "hero": {
     "available": "Müsait",
     "about": {
-      "title": "Kontrol Sistemleri, Yapay Zeka ve İleri Teknoloji Alanında Uzman Mekatronik Mühendisi. Ankara, Türkiye 🇹🇷",
-      "description": "Yenilikçi teknolojilerle geleceği şekillendiren, karmaşık mühendislik problemlerine yapay zeka destekli çözümler üretmeye odaklanmış deneyimli bir profesyonelim. Hyperloop, kontrol sistemleri ve Ar-Ge alanındaki uzmanlığım ile ölçülebilir sonuçlar üretmeyi hedefliyorum."
+      "title": "Merhaba, Ben Ferhat",
+      "description": "Kontrol Sistemleri, Yapay Zeka ve İleri Teknoloji Alanında Uzman Mekatronik Mühendisi.Yenilikçi teknolojilerle geleceği şekillendiren, karmaşık mühendislik problemlerine yapay zeka destekli çözümler üretmeye odaklanmış deneyimli bir profesyonelim. Hyperloop, kontrol sistemleri ve Ar-Ge alanındaki uzmanlığım ile ölçülebilir sonuçlar üretmeyi hedefliyorum."
+    },
+    "badge": {
+      "developer": "Mekatronik Mühendisi",
+      "location": "Türkiye"
+    },
+    "buttons": {
+      "resume": "CV",
+      "copyEmail": "E-postayı kopyala"
     }
   },
   "career": {
@@ -104,7 +126,7 @@
           "github": "[GitHub hesabınız]",
           "preview": "YouTube Linki"
         },
-        "image": "/projects/images/ai-levitation-system.png"
+        "image": ""
       },
       {
         "title": "Starloop Hyperloop Geliştirme Projesi",
@@ -119,7 +141,7 @@
           "github": "[GitHub hesabınız]",
           "preview": null
         },
-        "image": "/projects/images/starloop-hyperloop.png"
+        "image": ""
       },
       {
         "title": "ECG QRS Tespit Algoritması",
