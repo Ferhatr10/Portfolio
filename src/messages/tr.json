@@ -1,0 +1,230 @@
+{
+  "header": {
+    "about": {
+      "title": "Hakkımda",
+      "label": "hakkimda"
+    },
+    "career": {
+      "title": "Deneyimler",
+      "label": "deneyimler"
+    },
+    "projects": {
+      "title": "Projeler",
+      "label": "projeler"
+    },
+    "contact": {
+      "title": "İletişim",
+      "label": "iletisim"
+    },
+    "settings": "Ayarlar"
+  },
+  "hero": {
+    "available": "Müsait",
+    "about": {
+      "title": "Kontrol Sistemleri, Yapay Zeka ve İleri Teknoloji Alanında Uzman Mekatronik Mühendisi. Ankara, Türkiye 🇹🇷",
+      "description": "Yenilikçi teknolojilerle geleceği şekillendiren, karmaşık mühendislik problemlerine yapay zeka destekli çözümler üretmeye odaklanmış deneyimli bir profesyonelim. Hyperloop, kontrol sistemleri ve Ar-Ge alanındaki uzmanlığım ile ölçülebilir sonuçlar üretmeyi hedefliyorum."
+    }
+  },
+  "career": {
+    "title": "Kariyer & Deneyim",
+    "viewMore": "Daha fazlasını gör",
+    "companies": [
+      {
+        "company": "TÜBİTAK SAGE",
+        "link": null,
+        "badges": ["Ankara"],
+        "jobs": [
+          {
+            "title": "Mekatronik Mühendisliği Stajyeri",
+            "start": "Ağu, 2025",
+            "end": "Halen Devam Ediyor",
+            "description": [
+              "DC motor modelleri üzerinden kontrolcü tasarımı ve stabilite analizleri gerçekleştirdim.",
+              "Motor davranışlarını simüle ederek performans değerlendirmeleri ve teknik raporlamalar yaptım.",
+              "Kontrol sistemleri bilgimi derinleştiren pratik ve etkili mühendislik çözümleri geliştirdim."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Starloop",
+        "link": null,
+        "badges": ["İstanbul", "Ar-Ge"],
+        "jobs": [
+          {
+            "title": "Ar-Ge Mühendisi & Mekanik Ekip Lideri",
+            "start": "Eki, 2021",
+            "end": "Eki, 2024",
+            "description": [
+              "Türkiye'nin ilk Hyperloop levitasyon başarısını gerçekleştiren ekibe liderlik ettim.",
+              "2024 TEKNOFEST'te ikincilik ödülü ve 'İtki Sistemi Geliştirme Ödülü' kazandık.",
+              "SOLIDWORKS ve Ansys kullanarak mekanik sistem tasarımı ve analiz süreçlerini yönettim.",
+              "Uluslararası yarışmalarda (İskoçya, İsviçre) teknik sunum ve temsil görevlerini üstlendim."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "TÜBİTAK 2209-A Projesi",
+        "link": null,
+        "badges": ["Proje"],
+        "jobs": [
+          {
+            "title": "Proje Yürütücüsü (Mezuniyet Projesi)",
+            "start": "Eyl, 2024",
+            "end": "Haz, 2025",
+            "description": [
+              "Yapay Zeka Tabanlı Elektrodinamik Levitasyon Sistemi geliştirdim.",
+              "Doğrusal olmayan sistem dinamikleri için yapay zeka tabanlı modelleme ve kontrol algoritmaları tasarladım.",
+              "C++ ve Python kullanarak simülasyon ve fiziksel prototip üzerinde testler gerçekleştirdim.",
+              "Modern kontrol ve veri odaklı çözümler konusunda derinlemesine uzmanlık edindim."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projeler & Çalışmalar",
+    "not-found": "Proje bulunamadı",
+    "preview": "Önizleme",
+    "github": "GitHub",
+    "items": [
+      {
+        "title": "TÜBİTAK 2209-A: Yapay Zeka Tabanlı Levitasyon Sistemi",
+        "tags": [
+          { "name": "Python", "icon": "PythonIcon" },
+          { "name": "C++", "icon": "CIcon" },
+          { "name": "MATLAB/Simulink", "icon": "MATLABIcon" },
+          { "name": "Yapay Zeka (AI)", "icon": "AIIcon" },
+          { "name": "Kontrol Sistemleri", "icon": "ControlIcon" }
+        ],
+        "description": "TÜBİTAK destekli, doğrusal olmayan elektrodinamik levitasyon sisteminin AI tabanlı kontrolü ve modellemesi.",
+        "link": {
+          "github": "[GitHub hesabınız]",
+          "preview": "YouTube Linki"
+        },
+        "image": "/projects/images/ai-levitation-system.png"
+      },
+      {
+        "title": "Starloop Hyperloop Geliştirme Projesi",
+        "tags": [
+          { "name": "SOLIDWORKS", "icon": "SolidworksIcon" },
+          { "name": "Ansys Workbench", "icon": "AnsysIcon" },
+          { "name": "Prototip Geliştirme", "icon": "PrototypeIcon" },
+          { "name": "Ekip Liderliği", "icon": "LeadershipIcon" }
+        ],
+        "description": "Türkiye'nin öncü Hyperloop projesinde mekanik sistem tasarımı, yapısal analiz ve uluslararası yarışma temsilleri.",
+        "link": {
+          "github": "[GitHub hesabınız]",
+          "preview": null
+        },
+        "image": "/projects/images/starloop-hyperloop.png"
+      },
+      {
+        "title": "ECG QRS Tespit Algoritması",
+        "tags": [
+          { "name": "PyTorch", "icon": "PyTorchIcon" },
+          { "name": "TensorFlow", "icon": "TensorFlowIcon" },
+          { "name": "Derin Öğrenme", "icon": "DLICon" },
+          { "name": "Sinyal İşleme", "icon": "SignalIcon" }
+        ],
+        "description": "PyTorch ve TensorFlow kullanılarak gerçek ECG verisi üzerinde QRS kompleksi tespiti için derin öğrenme modeli geliştirilmesi.",
+        "link": {
+          "github": "[GitHub hesabınız]"
+        },
+        "image": "/projects/images/ecg-qrs-detection.png"
+      },
+      {
+        "title": "VizCad - STL Düzenleme ve Görselleştirme",
+        "tags": [
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Web Geliştirme", "icon": "WebIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindIcon" }
+        ],
+        "description": "STL dosyalarını düzenleme ve görselleştirme imkanı sunan modern, kullanıcı dostu web uygulaması.",
+        "link": {
+          "github": "[GitHub hesabınız]",
+          "preview": null
+        },
+        "image": "/projects/images/vizcad-stl-editor.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Bana Ulaşın",
+    "description": "Sorularınız, iş teklifleriniz veya işbirlikleri için benimle iletişime geçmekten çekinmeyin. Yeni fırsatlara ve zorluklara açığım.",
+    "form": {
+      "message-watch": "Mesaj URL içermemelidir",
+      "on-submit": {
+        "title": "Spam Algılandı",
+        "description": "Lütfen formu doğru ve spam olmadan doldurun. Teşekkürler!"
+      },
+      "ok": {
+        "title": "E-posta Gönderildi",
+        "description": "Size en kısa sürede geri döneceğim!"
+      },
+      "error": {
+        "title": "Hata",
+        "description": "E-posta gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+      },
+      "card-description": "Lütfen aşağıdaki formu doldurun, size en kısa sürede geri döneceğim.",
+      "first-name": "Ad",
+      "first-name-placeholder": "Adınız",
+      "last-name": "Soyad",
+      "last-name-placeholder": "Soyadınız",
+      "email-placeholder": "E-posta adresiniz",
+      "message": "Mesaj",
+      "message-placeholder": "Mesajınızı buraya girin...",
+      "submit": "Gönder",
+      "validation": {
+        "first-name": {
+          "min": "Ad en az 2 karakter olmalıdır.",
+          "max": "Ad 50 karakterden az olmalıdır.",
+          "regex": "Ad sadece harf içermelidir."
+        },
+        "last-name": {
+          "min": "Soyad en az 2 karakter olmalıdır.",
+          "max": "Soyad 50 karakterden az olmalıdır.",
+          "regex": "Soyad sadece harf içermelidir."
+        },
+        "email": {
+          "email": "E-posta geçerli bir e-posta adresi olmalıdır.",
+          "min": "E-posta en az 5 karakter olmalıdır.",
+          "max": "E-posta 100 karakterden az olmalıdır."
+        },
+        "message": {
+          "min": "Mesaj en az 10 karakter olmalıdır.",
+          "max": "Mesaj 500 karakterden az olmalıdır.",
+          "refine": "Mesaj URL içermemelidir."
+        }
+      }
+    }
+  },
+  "pagination": {
+    "next": "Sonraki",
+    "previous": "Önceki"
+  },
+  "footer": {
+    "copyrights": "Tüm hakları saklıdır."
+  },
+  "lang-switcher": {
+    "label": "Dil",
+    "options": {
+      "en": "İngilizce",
+      "tr": "Türkçe"
+    }
+  },
+  "mode-toggle": {
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem",
+    "label": "Tema"
+  },
+  "not-found": {
+    "title": "404",
+    "description": "Tebrikler! Var olmayan bir sayfa buldunuz. 🎉",
+    "button": "Ana sayfaya geri dön"
+  }
+}

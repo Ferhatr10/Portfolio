@@ -11,7 +11,7 @@ import {
   DropdownMenuCheckboxItem
 } from '@/components/ui/dropdown-menu'
 import { UsFlagIcon } from '@/components/icons/lang/us-flag'
-import { ArFlagIcon } from '@/components/icons/lang/ar-flag'
+import { TrFlagIcon } from '@/components/icons/lang/tr-flag'
 import { type Locale } from '@/i18n'
 
 export function LangSwitcher() {
@@ -40,7 +40,7 @@ export function LangSwitcher() {
           {locale === 'en' ? (
             <UsFlagIcon className='h-[1.5rem] w-[1.5rem]' />
           ) : (
-            <ArFlagIcon className='h-[1.5rem] w-[1.5rem]' />
+            <TrFlagIcon className='h-[1.5rem] w-[1.5rem]' />
           )}
           <span className='sr-only'>{t('lang-switcher.label')}</span>
         </Button>
@@ -56,12 +56,12 @@ export function LangSwitcher() {
           {t('lang-switcher.options.en')}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
-          checked={locale === 'es'}
+          checked={locale === 'tr'}
           onClick={() => {
-            handleLocaleChange('es')
+            handleLocaleChange('tr')
           }}
         >
-          {t('lang-switcher.options.es')}
+          {t('lang-switcher.options.tr')}
         </DropdownMenuCheckboxItem>
       </DropdownMenuContent>
     </DropdownMenu>
